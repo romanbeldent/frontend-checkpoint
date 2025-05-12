@@ -1,7 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { GET_COUNTRY } from "../api/queries";
 import { useQuery } from "@apollo/client";
-import { CountryCardProps } from "../components/CountryCard";
 
 const CountryDetails = () => {
   const { code } = useParams();
