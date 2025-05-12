@@ -18,6 +18,7 @@ const ListingCountries = () => {
               <CountryCard
                 id={el.id}
                 name={el.name}
+                code={el.code}
                 emoji={el.emoji}
               />
             </div>
