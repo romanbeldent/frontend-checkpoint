@@ -26,6 +26,7 @@ const CountryDetails = () => {
                 <div className="country-emoji">{data.country.emoji}</div>
                 <div className="country-name">Name: {data.country.name}</div>
                 <div className="country-code">Code: {data.country.code}</div>
+                <div className="country-code">Continent: {data.country.continent.name}</div>
               </>
           </div>
         </section >

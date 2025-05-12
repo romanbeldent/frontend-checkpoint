@@ -17,6 +17,9 @@ query GetCountryByCode($code: String!) {
     name
     emoji
     code
+    continent {
+      name
+    }
   }
 }
 `;
